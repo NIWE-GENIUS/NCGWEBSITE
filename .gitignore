@@ -1,0 +1,23 @@
+node_modules/
+**/node_modules/
+
+.env
+.env.*
+!.env.example
+
+dist/
+build/
+coverage/
+
+*.log
+npm-debug.log*
+
+# Sensitive files
+backend/hash.txt
+backend/uploads/images/credentials-*.png
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+*.bak
